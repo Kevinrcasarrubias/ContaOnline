@@ -22,7 +22,7 @@ const ContactUs = () => {
   return (
 
     <form 
-         className="grid grid-cols-1 grid-rows-6 w-full h-[130vh] mt-[20rem] space-y-1 xxl:grid-cols-2 xxl:grid-rows-4 xxl:h-[80vh] xxl:mt-[6rem] xxl:mb-[5rem] relative"
+         className="grid grid-cols-1 grid-rows-6 w-full h-[130vh] mt-[20rem] space-y-1 xxl:grid-cols-2 xxl:grid-rows-4 xxl:h-[80vh] xxl:mt-[6rem] xxl:mb-[5rem]"
          id="contactanos"
          ref={form}
          onSubmit={sendEmail}
@@ -35,7 +35,7 @@ const ContactUs = () => {
                type="text"
                id="nombre"
                required
-               className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px] text-[15px] mb-[4rem] p-2.5"
+               className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px] text-[15px] mb-[4rem] p-2.5 block"
            >
            </input>
        </div>
@@ -46,7 +46,7 @@ const ContactUs = () => {
              type="email"
              id="email"
              required
-             className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px]  text-[15px] mb-[4rem] p-2.5"
+             className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px]  text-[15px] mb-[4rem] p-2.5 block"
             >           
             </input>
        </div>
@@ -57,7 +57,7 @@ const ContactUs = () => {
               type="tel"
               id="telefono"
               required
-              className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px]  text-[15px] mb-[4rem] p-2.5"
+              className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[35px] xxl:w-[400px]  text-[15px] mb-[4rem] p-2.5 block"
            >
            </input>
        </div>
@@ -66,7 +66,7 @@ const ContactUs = () => {
            <textarea
               name="message"
               id="mensaje"
-              className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[120px] xxl:w-[400px]  xxl:h-[100px] text-[15px] mb-[4rem] p-2.5"
+              className="text-black border border-[#33353f] font-montserrat rounded-lg w-[300px] h-[120px] xxl:w-[400px]  xxl:h-[100px] text-[15px] mb-[4rem] p-2.5 block"
            />
        </div>
        <div className="grid col-start-1 row-start-6 items-center justify-center  xxl:col-start-1 xxl:col-span-2 xxl:row-start-4 xxl:items-center">
