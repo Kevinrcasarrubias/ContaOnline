@@ -22,7 +22,7 @@ const ContactUs = () => {
   return (
 
     <form 
-         className="grid grid-cols-1 grid-rows-6 w-full h-[130vh] mt-[20rem] space-y-1 xxl:grid-cols-2 xxl:grid-rows-4 xxl:h-[80vh] xxl:mt-[6rem] xxl:mb-[5rem]"
+         className="grid grid-cols-1 grid-rows-6 w-full h-[130vh] mt-[20rem] space-y-1 xxl:grid-cols-2 xxl:grid-rows-4 xxl:h-[80vh] xxl:mt-[6rem] xxl:mb-[5rem] relative"
          id="contactanos"
          ref={form}
          onSubmit={sendEmail}
