@@ -7,12 +7,13 @@ const Footer = () => {
     <div className="grid grid-cols-1 grid-rows-7 w-full h-[60vh] bg-[#F4DAAD] xl:grid-cols-4 xl:grid-rows-3 xl:h-[50vh]">
          <a 
              className="grid col-start-1 row-start-1 justify-center items-center xl:col-start-1 xxl:row-start-1 xl:items-end xl:mt-[4.3rem]"
-             href="/"    
+                 
          >
             <img
                src={footerLogo}
                alt="logo"
                className="w-[200px] h-[100px]"
+               href="/"
             />
          </a>
          <div className="grid col-start-1 row-start-2 justify-center items-center  xl:col-start-2 xl:row-start-1 xl:items-end">
