@@ -17,7 +17,7 @@ export default {
       '8xl': ['96px', '106px']
     },
     screens: {
-      'xs': '400px',
+      'xs': '400px'   ,
       'xxs':'450px',
       'sm': '560px',
       'md': '680px',

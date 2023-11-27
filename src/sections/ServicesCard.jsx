@@ -4,7 +4,7 @@ import practico from "../assets/icons/practico.svg"
 
 const ServicesCard = () => {
   return (
-    <section className="grid grid-cols-3 grid-rows-3 w-full mt-[20rem] h-[120vh] xxl:grid-cols-3 xxl:grid-rows-1 xxl:h-[50vh]">
+    <section className="grid grid-cols-3 grid-rows-3 w-full mt-[10rem] xxl:mt-[15rem] h-[120vh] xxl:grid-cols-3 xxl:grid-rows-1 xxl:h-[50vh]">
         <div className="grid col-start-2 row-start-1 items-center justify-center w-full h-[30vh] xxl:col-start-1 xxl:row-start-1 xxl:justify-center xxl:items-center">
             <div>
                   <div className= "w-[340px] h-[175px] bg-neutral-100 shadow-2xl rounded-xl py-4 px-4">

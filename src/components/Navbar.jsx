@@ -13,19 +13,19 @@ const Navbar = () => {
     <>
         <nav className="bg-black">
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex  items-center justify-between h-16">
+              <div className="flex  items-center justify-between h-16 md:h-[6rem]">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <a>
                        < img 
                            src={logo}
-                           clasName="xl:w-[150px] xl:h-[150px]" 
+                           className="md:w-[150px] md:h-[150px] md:mb-[.5rem]" 
                         />
                     </a>
                   </div>
                 </div>
                 <div className="hidden md:block">
-                  <div className="ml-4 flex items-center space-x-4 md:mt-[.5rem]">
+                  <div className="ml-4 flex font-montserrat items-center space-x-4 md:mt-[.5rem] md:text-[20px]">
                        <a
                          href="#nosotros"
                          className="text-white hover:bg-red-600 hover:text-black rounded-lg p-2"

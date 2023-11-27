@@ -9,6 +9,7 @@ const Hero = () => {
           <img
               src={hero}
               alt="hero image"
+              className=""
           />
           </div>  
           <div className="">  
